@@ -1,0 +1,32 @@
+##Patti Donahue Problem Set 2 
+##Question 1 
+#import <Foundation/Foundation.h>
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+    // convert string to array
+    NSString *string = @"What a great weekend!";
+    NSArray *newArray = [string componentsSeparatedByString:@" "];
+    // For loop add 1 since it starts at 0
+    for (int i=0; i<[newArray count]; i++) {
+    NSLog(@"%d", i+1);   
+    }
+}return 0;
+ }      
+
+ ##Question 2
+ int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+    NSString *string = @"I love New York"; int count = 0;
+    -(NSUInteger)NumVowels;(NSString * )string;
+    for (int index = 0; index < string.length; index++) {
+    char ch = [string characterAtIndex:index]; if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U') { count ++; } } 
+    NSLog(@"Answer for question 2: number of vowels= %d",count); 
+    }return 0;
+}
+
+
+##Question 4
+http://github.com - automatic
+[GitHub] (https://medium.com/@PDonahue/methods-in-objective-c-9090ca426f1f)
+
+
